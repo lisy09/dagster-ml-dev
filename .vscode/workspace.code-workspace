@@ -1,0 +1,31 @@
+{
+	"folders": [
+        {
+            "path": "dagster-ml-dev"
+        },
+        {
+            "path": ".dev-venv"
+        },
+        {
+            "path": "dagster"
+        },
+        {
+            "path": "dagster-ml"
+        }
+    ],
+    "settings": {
+        "java.autobuild.enabled": false,
+        "java.implementationsCodeLens.enabled": true,
+        "python.linting.enabled": true,
+        "python.formatting.provider": "autopep8",
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "octref.vetur",
+            "gabrielbb.vscode-lombok",
+            "vscjava.vscode-gradle",
+            "vscjava.vscode-java-pack"
+        ]
+    }
+}

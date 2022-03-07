@@ -1,0 +1,5 @@
+pytest
+flake8
+autopep8
+coverage
+pipdeptree
