@@ -1,5 +1,5 @@
 {
-	"folders": [
+    "folders": [
         {
             "path": "dagster-ml-dev"
         },
@@ -16,8 +16,93 @@
     "settings": {
         "java.autobuild.enabled": false,
         "java.implementationsCodeLens.enabled": true,
+        "[dockerfile]": {
+            "editor.formatOnSave": false
+        },
+        "autoDocstring.quoteStyle": "'''",
+        "autoDocstring.docstringFormat": "google",
+        "breadcrumbs.enabled": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveTimeout": 2000,
+        "editor.formatOnPaste": false,
+        "editor.rulers": [
+            100
+        ],
+        "editor.minimap.enabled": false,
+        "editor.renderWhitespace": "none",
+        "editor.suggestSelection": "first",
+        "editor.tabSize": 4,
+        "eslint.validate": [
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "typescriptreact",
+        ],
+        "files.autoSave": "off",
+        "files.exclude": {
+            "**/*.egg-info": true,
+            "**/*.pyc": true,
+            "**/.DS_Store": true,
+            "**/.cache": true,
+            "**/.files": true,
+            "**/.git": true,
+            "**/.hg": true,
+            "**/.idea": true,
+            "**/.ipynb_checkpoints": true,
+            "**/.mypy_cache": true,
+            "**/.offline-package-cache": true,
+            "**/.pytest_cache": true,
+            "**/.ropeproject": true,
+            "**/.runs": true,
+            "**/.svn": true,
+            "**/.temp": true,
+            "**/.tox": true,
+            "**/.vscode": true,
+            "**/CVS": true,
+            "**/__pycache__": true,
+            "**/access.log": true,
+            "**/build": true,
+            "**/error.log": true,
+            "**/node_modules": true,
+            "**/settings_comments.txt": true,
+            "**/spark-warehouse": true,
+            "**/tags": true,
+            "*/.coverage": true,
+            "*/coverage.xml": true,
+            "*/dist": true,
+            "*/htmlcov": true,
+            "pulumi/bin": true,
+            "scala_modules/*/target": true
+        },
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+        "git.ignoreLimitWarning": true,
+        "python.analysis.disabled": [
+            "unresolved-import"
+        ],
+        "python.analysis.memory.keepLibraryAst": true,
+        "python.formatting.provider": "black",
+        "python.formatting.blackArgs": [
+            "--line-length",
+            "100",
+            "-S",
+            "--fast",
+        ],
+        "python.jediEnabled": true,
         "python.linting.enabled": true,
-        "python.formatting.provider": "autopep8",
+        "python.linting.pylintEnabled": true,
+        "python.linting.lintOnSave": true,
+        "python.linting.pycodestyleEnabled": false,
+        "python.testing.pytestEnabled": true,
+        // "workbench.colorTheme": "Material Theme Darker",
+        "window.zoomLevel": 0,
+        "workbench.iconTheme": "vscode-icons",
+        "workbench.startupEditor": "newUntitledFile",
+        "typescript.updateImportsOnFileMove.enabled": "always",
+        "workbench.tree.renderIndentGuides": "onHover",
+        "[typescript]": {
+            "editor.tabSize": 2
+        },
     },
     "extensions": {
         "recommendations": [
