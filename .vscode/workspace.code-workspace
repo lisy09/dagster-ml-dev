@@ -3,9 +3,9 @@
         {
             "path": "dagster-ml-dev"
         },
-        {
-            "path": ".dev-venv"
-        },
+        // {
+        //     "path": ".dev-venv"
+        // },
         {
             "path": "dagster"
         },
