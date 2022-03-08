@@ -162,7 +162,7 @@ check_java
 
 checkout_repos() {
     repo="dagster-origin"
-    echo "Checking 
+    echo "Checking
     whether repository [$repo] exists..."
     repo_path=$WORKSPACE_DIR/$repo
     if [ -d "${repo_path}" ]; then
@@ -191,4 +191,4 @@ checkout_repos() {
 }
 checkout_repos
 
-cd $WORKSPACE_DIR/dagster && make dev_install
+cd $WORKSPACE_DIR/dagster && git checkout ml-master && make dev_install
